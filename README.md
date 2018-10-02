@@ -21,4 +21,4 @@ npm install
 npm start
 ```
 
-Open Posman or RestClient to test the app at [http://localhost:80810](http://localhost:8081)
+Open Postman or RestClient to test the app at [http://localhost:8081](http://localhost:8081)
