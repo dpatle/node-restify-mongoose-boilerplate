@@ -1,0 +1,34 @@
+{
+  "name": "node-auth",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "prod": "forever src/start index.js",
+    "prod-stop": "forever stop src/index.js",
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cryptr": "^3.0.0",
+    "jsonwebtoken": "^7.4.1",
+    "mongoose": "^5.2.17",
+    "mysql": "^2.13.0",
+    "node-restify-validation": "^1.1.1",
+    "node-xlsx": "^0.12.0",
+    "nodemailer": "^4.6.4",
+    "nodemon": "^1.11.0",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1",
+    "passport-local": "^1.0.0",
+    "restify": "^4.3.0",
+    "simple-crypto-js": "^1.1.1",
+    "simple-encryptor": "^1.2.0"
+  },
+  "devDependencies": {
+    "cpass": "^2.0.3",
+    "forever": "^0.15.3"
+  }
+}
